@@ -20,7 +20,7 @@ phases:
       -  wget -O hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64
       -  sudo cp hadolint /usr/local/bin/hadolint
       -  sudo chmod +x /usr/local/bin/hadolint
-      -  hadolint --version
+      #-  hadolint --version
       #kubelinetr
       - wget https://github.com/stackrox/kube-linter/releases/download/0.2.5/kube-linter-linux.tar.gz
       - tar -xvf kube-linter-linux.tar.gz
